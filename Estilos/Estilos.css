@@ -1,0 +1,377 @@
+body {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}
+.imagencab{
+    float: left;
+    height: 200px;
+    width: 350px;
+}
+.back1{
+   background-size: cover;
+   background-attachment: sticky;
+   background-image: url(https://img.freepik.com/foto-gratis/adorable-perro-basenji-marron-blanco-sonriendo-dando-maximo-cinco-aislado-blanco_346278-1657.jpg);
+   height: 700px;
+}
+nav{
+    background-color: transparent;
+    padding: 1px;
+    margin: 1em 200px;
+}
+nav ul li{
+    
+    padding: 12px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+nav ul li a:hover{
+    color: brown;
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+.sidebar{
+    background-color: transparent;
+     width: 500px;
+     padding: 10px;
+     float: right;
+     font-size: 50px;
+ }
+ button a{
+    text-decoration: none;
+    color: white;
+}
+.but1:active {
+    transform: scale(0.95);
+}
+.but1{
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.but1:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+.vid{
+    margin-left: 500px;
+    margin-right: 500px;
+    
+}
+.ima3{
+    position: relative;
+    width: 450px;
+}
+
+.img1{
+    width: 100%;
+    display: block;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg, rgba(255, 75, 43, 0.4), rgba(255, 204, 0, 0.4)) 1;
+}
+
+.img-juntas{
+    position: absolute;
+    width: 60%;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg, rgba(255, 75, 43, 0.4), rgba(255, 204, 0, 0.4)) 1;
+}
+
+
+.img2{
+    height: 300px;
+    width: 250px;
+    top: 200px;
+    left: 330px;
+    z-index: 2;
+}
+
+.img3{
+    height: 250px;
+    width: 350px;
+    top: 350px;
+    left: 80px;
+    z-index: 2;
+}
+.info{
+   width: 600px;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.but3{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.but3:hover {
+    background-color: #d88400;
+}
+.ls1{
+    display: flex;
+    justify-content: center;
+}
+.ls2{
+    display: flex;
+    justify-content: center;
+}
+.ls3{
+    display: flex;
+    justify-content: center;
+}
+.imagenv{
+    width: 150px;
+    height: 150px;
+    margin: 20px 50px;
+    cursor: pointer;
+}
+.boton4{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+.but4{
+    background-color: orange;
+    color: white;
+
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.but4:hover {
+    background-color: #d88400;
+}
+.back2{
+    background-size: cover;
+    background-attachment: sticky;
+    background-image: url(https://st3.depositphotos.com/9880800/15111/i/450/depositphotos_151119428-stock-photo-father-holding-puppy.jpg);
+    height: 700px;
+    text-align: center;
+ }
+.back2 h3{
+    color: orange;
+    font-size: 20px;
+}
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+footer h3{
+    color: #f7c600;
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer ul li{
+    color: #ffffff;
+    list-style: none;
+}
+.logout {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.logout a {
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logout a:hover {
+    background: linear-gradient(45deg, #d32f2f, #b71c1c);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.logout-icon {
+    font-size: 18px;
+}
+@keyframes slideDown {
+from {
+transform: translateY(-100%);
+opacity: 0;
+}
+to {
+transform: translateY(0);
+opacity: 1;
+}
+}
+nav {
+animation: slideDown 0.8s ease-out;
+}
+.custom-nav {
+    background: linear-gradient(90deg, #ff4b2b, #ff416c);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 15px 0;
+    margin: 30px auto;
+    border-radius: 12px;
+    width: 80%;
+    animation: slideDown 0.8s ease-out;
+}
+
+.custom-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.custom-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.custom-nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transform: translateY(-2px);
+    color: #fffbe7;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 20px;
+    z-index: 1100;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+.hamburger-line {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+
+
+.hamburger.active .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+
+@media (max-width: 768px) {
+    .custom-nav ul {
+        flex-direction: column;
+        background: linear-gradient(90deg, #ff4b2b, #ff416c);
+        position: absolute;
+        top: 60px; 
+        right: 0;
+        width: 200px;
+        border-radius: 0 0 0 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.3s ease-in-out;
+    }
+    .custom-nav ul.show {
+        max-height: 500px; 
+    }
+    .custom-nav ul li {
+        padding: 12px 20px;
+        text-align: right;
+    }
+    .custom-nav ul li a {
+        background: transparent !important;
+        color: white !important;
+        box-shadow: none !important;
+        font-size: 16px;
+    }
+    .hamburger {
+        display: flex;
+    }
+}
+#btnScrollTop {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 10000;
+  font-size: 24px;
+  background-color: #ff416c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.3s ease;
+}
+#btnScrollTop:hover {
+  background-color: #ff4b2b;
+}

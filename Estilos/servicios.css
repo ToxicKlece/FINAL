@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+header{
+    background-color: #008080;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+.titulo{
+    margin: 0;
+    font-size: 28px;
+}
+.back-button{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: red;
+    color: #008080;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.back-button:hover{
+    background: #7c0c04;
+}
+.serviciosmain{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.intro{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+.servicio{
+    background: #d6f5f5;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.servicio:hover{
+    transform: scale(1.03);
+}
+.servicio h2{
+    margin: 0;
+    font-size: 22px;
+    color: #008080;
+}
+.servicio p{
+    margin: 5px 0;
+    font-size: 16px;
+    color: #555;
+}
+.final{
+    font-size: 18px;
+    color: #333;
+    margin-top: 30px;
+}
+.contacto{
+    background: #008080;
+    color: white;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.contacto:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+}
+button a{
+    text-decoration: none;
+    color: white;
+}

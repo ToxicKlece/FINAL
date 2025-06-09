@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/contacto.css">
+    <title>Document</title>
+</head>
+<body>
+    <button class="back"> <a href="index.html"> ← Volver Atrás</a></button>
+    <div class="contacto">
+        <form class="contacto-form">
+            <h2>Contacto</h2>
+            <label for="nombre">Nombres y Apellidos</label>
+            <input type="text" id="nombre">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono">
+
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo">
+
+            <label for="sede">Sede</label>
+            <select id="sede">
+                <option value="">Seleccione una sede...</option>
+                <option value="sede1">Sede Surco</option>
+                <option value="sede2">Ate</option>
+                <option value="sede3">Comas</option>
+                <option value="sede4">Miraflores</option>
+                <option value="sede5">San Juan De Miraflores</option>
+                <option value="sede6">Puente Piedra</option>
+            </select>
+            
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="5"></textarea>
+            
+            <div class="terms">
+                <input type="checkbox" id="politica">
+                <label for="politica">He leído y acepto la política de privacidad y datos personales</label>
+            </div>
+            
+            <button>Enviar</button>
+        </form>
+
+        <aside class="contacto-info">
+            <h3>Nuestras Sedes</h3>
+            <p><strong>Sede Surco:</strong> Av. Tomás Marsano 4847.</p>
+            <p><strong>Sede Ate:</strong> Carretera Central km 9.2.</p>
+            <p><strong>Sede Comas:</strong> Av. Universitaria 7085 - Comas / Av. Universitaria 1240 - Comas / 500-6604</p>
+            <p><strong>Sede Miraflores:</strong> Av. Larco 756.</p>
+            <p><strong>Sede San Juan De Miraflores:</strong> Av. San Juan 779.</p>
+            <p><strong>Puente Piedra:</strong> Av. Sáenz Peña 398 - Puente Piedra / Calle La Victoria 509 - Puente Piedra / 500-6607</p>
+        </aside>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="Scripts/contacto.js"></script>
+</body>
+</html>

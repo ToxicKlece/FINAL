@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="Estilos/Estiilos2.css" />
+  <title>Formulario Registro</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="form">
+    <h2>Veterinaria Tuki</h2>
+    <h2>Formulario Registro</h2>
+    <form id="registroForm">
+      <label>Nombre</label>
+      <input type="text" id="nombre" />
+
+      <label>Apellido paterno</label>
+      <input type="text" id="apellidoPaterno" />
+
+      <label>Apellido materno</label>
+      <input type="text" id="apellidoMaterno" />
+
+      <label>Correo</label>
+      <input type="email" id="correo" />
+
+      <label>Contraseña</label>
+      <input type="password" id="contrasena" />
+
+      <label>Sexo</label>
+      <div class="radio-group">
+        <input type="radio" name="sexo" value="masculino" id="sexoM" /> Masculino
+        <input type="radio" name="sexo" value="femenino" id="sexoF" /> Femenino
+      </div>
+
+      <label>Distrito de residencia</label>
+      <select id="distrito">
+        <option value="">Seleccione...</option>
+        <option value="distrito1">Miraflores</option>
+        <option value="distrito2">San Borja</option>
+        <option value="distrito3">Surco</option>
+        <option value="distrito4">San Juan De Miraflores</option>
+        <option value="distrito5">La Molina</option>
+        <option value="distrito6">Callao</option>
+      </select>
+
+      <label>Fecha de registro</label>
+      <input type="date" id="fechaRegistro" />
+
+      <div class="termi">
+        <input type="checkbox" id="terminos" /> Estoy de acuerdo con <a href="#">Términos y Condiciones</a>
+      </div>
+
+      <button type="submit">REGISTRAR</button>
+
+      <div class="extra">
+        <a href="login.html">¿Ya tengo Cuenta?</a>
+      </div>
+    </form>
+  </div>
+
+  <script src="Scripts/validacionRegistro.js"></script>
+</body>
+</html>
